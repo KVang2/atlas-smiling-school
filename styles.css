@@ -1,0 +1,42 @@
+/* css styling */
+
+.purple-text {
+    color: #C271FF;
+}
+
+header {
+    background-image: url('image/pic_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #C271FF;
+    border-color: #C271FF;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+    background-color: #C271FF;
+    border-color: #C271FF;
+}
+
+/* Custom styles for medium devices */
+@media (min-width: 768px) {
+
+}
+
+/* Custom styles for moblie devices */
+@media (min-width: 576px) {
+}
+
+/* Custom styles for desktop devices */
+@media (min-width: 992px) {
+}
+
+.footerbg {
+    background-color: #071629;
+}
