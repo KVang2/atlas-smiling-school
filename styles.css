@@ -58,7 +58,19 @@ header {
     width: 100%;
 }
 
+.courses {
+    background-image: url('image/pic_3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
 /* Couldnt get the opacity to work in bootstrap */
 .cpright {
     opacity: 0.25;
+}
+
+.FAQ-c {
+    color: #07162980;
 }
