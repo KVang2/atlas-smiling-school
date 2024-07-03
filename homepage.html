@@ -13,7 +13,7 @@
 <body>
     <header>
         <div class="row align-items-center pt-3">
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3 d-none d-md-block">
             <!-- Link element with an image inside -->
             <a href="#">
                 <img src="image/logo.png" alt="LOGO">
@@ -22,9 +22,9 @@
 
             <!-- Block of 3 link elements -->
             <div class="col-6 col-md-9 d-none d-md-block text-right text-white">
-                        <a class="mx-3">Courses</a>
-                        <a class="mx-3">Pricing</a>
-                        <a class="mx-3">Login</a>
+                <a class="mx-3">Courses</a>
+                <a class="mx-3">Pricing</a>
+                <a class="mx-3">Login</a>
             </div>
         </div>
 
@@ -32,8 +32,8 @@
         <section class="d-flex align-items-center vh-100">
             <div class="container text-center text-white">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-8">
-                        <h1>Get schooled</h1>
+                    <div class="col-12 col-md-8 text-center">
+                        <h1 class="display-1 pt-5 font-weight-bold text-nowrap mt-5" style="color: #FFFFFF;">Get schooled</h1>
                         <div class="d-flex justify-content-around m-3">
                             <div><p>SMILES</p></div>
                             <div><p>GRIN</p></div>
@@ -88,25 +88,325 @@
         </section>
     </header>
 
-    
-    
-    <!-- Footer -->
-    <footer class="footerbg text-white py-4">
+ <!-- Main Section -->
+ <main>
+
+    <!-- Quote Section block-->
+    <section style="background-color: #C271FF;">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-md-4 text-center text-left pr-4">
-                    <img class="footer-logo" src="image/logo.png" alt="footer-img">
-                </div>
-                <div class="col-12 col-md-4 text-center pt-5">
-                    <p class="footer-caption">@smileschool 2020</p>
-                </div>
-                <div class="col-12 col-md-4 text-right">
-                    <img src="image/Facebook.png" alt="fb" class="mx-2">
-                    <img src="image/Twitter.png" alt="twitter" class="mx-2">
-                    <img src="image/Instagram.png" alt="instagram" class="mx-2">
+            <div id="quoteCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">  
+                    <div class="carousel-item active">      
+                        <div class="row align-items-center py-5">
+                            <div class="col-1 d-felx justify-content-center">
+                                <a href="#quoteCarousel" role="button" data-slide="prev">
+                                    <img src="image/arrow_white_left.png" alt="arrow" width="29.04" height="62.67">
+                                </a>
+                            </div>
+                            <div class="col-2 d-flex justify-content-center">
+                                <img src="image/profile_5.jpg" alt="red-shirt" class="rounded-circle" width="110" height="110">
+                            </div>
+                            <div class="col-8 text-center text-white pl-4">
+                                <blockquote class="text-left"><< Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!</blockquote>
+                                <p class="text-left"> Person Name<br>weather presenter</p>
+                            </div>
+                            <div class="col-1 d-flex justify-content-center align-items-center">
+                                <a href="quoteCarousel" role="button" data-slide="next">
+                                    <img src="image/arrow_white_right.png" alt="arrow" width="29.04" height="62.67">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center py-5">
+                            <div class="col-1 d-felx justify-content-center">
+                                <a href="#quoteCarousel" role="button" data-slide="prev">
+                                    <img src="image/arrow_white_left.png" alt="arrow" width="29.04" height="62.67">
+                                </a>
+                            </div>
+                            <div class="col-2 d-flex justify-content-center">
+                                <img src="image/profile_5.jpg" alt="red-shirt" class="rounded-circle" width="110" height="110">
+                            </div>
+                            <div class="col-8 text-center text-white pl-4">
+                                <blockquote class="text-left"><< Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!</blockquote>
+                                <p class="text-left"> Person Name<br>weather presenter</p>
+                            </div>
+                            <div class="col-1 d-flex justify-content-center align-items-center">
+                                <a href="quoteCarousel" role="button" data-slide="next">
+                                    <img src="image/arrow_white_right.png" alt="arrow" width="29.04" height="62.67">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </section>
+
+    <!-- Videos Section block-->
+    <section>
+        <div class="container">
+            <div class="text-center mb-4">
+                <h1 class="video-h1">Most <span>popular</span> tutorials</h1>
+            </div>
+            <!-- Video Block of 4 videos -->
+            <div class="row">
+
+                <!-- Video 1 -->
+                <div class="col-12 col-lg-3 col-sm-6 text-center">
+                    <img src="image/thumbnail_4.jpg" alt="smile" width="255" height="154">
+                    <h2>Diagonal Smile</h2>
+                    <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+
+                    <!-- Block for author info-->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="Phillip" width="50" height="50">
+                        <h3>Phillip Massey</h3>
+                    </div>
+                    
+                    <!-- Block for rating -->
+                    <div class="mr-3">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_off.png" alt="star">
+                        <p>8 min</p>
+                    </div>
+                </div>
+
+                <!-- video 2 -->
+                <div class="col-12 col-lg-3 col-sm-6 text-center">
+                    <img src="image/thumbnail_3.jpg" alt="sad smile" width="255" height="154">
+                    <h2 class="vh2">Sad Smile</h2>
+                    <p class="vp">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+
+                    <!-- Block for author info-->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="description"  width="50" height="50">
+                        <h3>Phillip Massey</h3>
+                    </div>
+                    
+                    <!-- Block for rating -->
+                    <div class="mr-3">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_off.png" alt="star">
+                        <p>8 min</p>
+                    </div>
+                </div>
+
+                <!-- video 3 -->
+                <div class="col-12 col-lg-3 col-sm-6 text-center">
+                    <img src="image/thumbnail_2.jpg" alt="natural smile" width="255" height="154">
+                    <h2 class="vh2">Natural Smile</h2>
+                    <p class="vp">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+    
+                    <!-- Block for author info-->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="Phillip"  width="50" height="50">
+                        <h3>Phillip Massey</h3>
+                    </div>
+                        
+                        <!-- Block for rating -->
+                        <div class="mr-3">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_off.png" alt="star">                            <p>8 min</p>
+                    </div>
+                </div>
+
+                <!-- video 4 -->
+                <div class="col-12 col-lg-3 col-sm-6 text-center">
+                    <img src="image/thumbnail_1.jpg" alt="happy smile" width="255" height="154">
+                    <h2 class="vh2">Happy Smile</h2>
+                    <p class="vp">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+
+                    <!-- Block for author info-->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="Phillip" width="50" height="50">
+                        <h3>Phillip Massey</h3>
+                    </div>
+                    
+                    <!-- Block for rating -->
+                    <div class="mr-3">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_off.png" alt="star">
+                        <p class="m">8 min</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section class="mem text-white text-center p-5">
+        <h1 class="text-center"><span class="free">Free</span> membership</h1>
+
+        <!-- Membership-->
+        <div class="container">
+            <div class="row m-5">
+                <!-- Membership block 1 -->
+                <div class="col-12 col-lg-3 col-sm-6 text-center p-4">
+                    <img src="image/smile_on.png" alt="membership">
+                    <h2 class="m-4">Lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+                </div>
+
+                <!-- Membership block 2 -->
+                <div class="col-12 col-lg-3 col-sm-6 text-center p-4">
+                    <img src="image/smile_on.png" alt="membership">
+                    <h2 class="m-4">Lorem ipsum</h2>
+                    <p class="m.p">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+                </div>
+
+                <!-- Membership block 3 -->
+                <div class="col-12 col-lg-3 col-sm-6 text-center p-4">
+                    <img src="image/smile_on.png" alt="membership">
+                    <h2 class="m-4">Lorem ipsum</h2>
+                    <p class="m.p">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+                </div>
+
+                <!-- Membership block 4 -->
+                <div class="col-12 col-lg-3 col-sm-6 text-center p-4">
+                    <img src="image/smile_on.png" alt="membership">
+                    <h2 class="m-4">Lorem ipsum</h2>
+                    <p class="m.p">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary rounded-pill mb-5">REGISTER FOR FREE</button>
+            </div>
+        </div>
+    </section>
+
+ <!-- Videos Section block-->
+    <section>
+        <div class="container">
+            <div class="text-center mb-4">
+                <h1 class="video-h1">Most <span>popular</span> tutorials</h1>
+            </div>
+            <!-- Video Block of 4 videos -->
+            <div class="row">
+
+                <!-- Video 1 -->
+                <div class="col-12 col-lg-3 col-sm-6 text-center">
+                    <img src="image/thumbnail_4.jpg" alt="smile" width="255" height="154">
+                    <h2>Diagonal Smile</h2>
+                    <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+
+                    <!-- Block for author info-->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="Phillip" width="50" height="50">
+                        <h3>Phillip Massey</h3>
+                    </div>
+                    
+                    <!-- Block for rating -->
+                    <div class="mr-3">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_off.png" alt="star">
+                        <p>8 min</p>
+                    </div>
+                </div>
+
+                <!-- video 2 -->
+                <div class="col-12 col-lg-3 col-sm-6 text-center">
+                    <img src="image/thumbnail_3.jpg" alt="sad smile" width="255" height="154">
+                    <h2 class="vh2">Sad Smile</h2>
+                    <p class="vp">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+
+                    <!-- Block for author info-->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="description"  width="50" height="50">
+                        <h3>Phillip Massey</h3>
+                    </div>
+                    
+                    <!-- Block for rating -->
+                    <div class="mr-3">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_off.png" alt="star">
+                        <p>8 min</p>
+                    </div>
+                </div>
+
+                <!-- video 3 -->
+                <div class="col-12 col-lg-3 col-sm-6 text-center">
+                    <img src="image/thumbnail_2.jpg" alt="natural smile" width="255" height="154">
+                    <h2 class="vh2">Natural Smile</h2>
+                    <p class="vp">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+    
+                    <!-- Block for author info-->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="Phillip"  width="50" height="50">
+                        <h3>Phillip Massey</h3>
+                    </div>
+                        
+                        <!-- Block for rating -->
+                        <div class="mr-3">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_off.png" alt="star">                            <p>8 min</p>
+                    </div>
+                </div>
+
+                <!-- video 4 -->
+                <div class="col-12 col-lg-3 col-sm-6 text-center">
+                    <img src="image/thumbnail_1.jpg" alt="happy smile" width="255" height="154">
+                    <h2 class="vh2">Happy Smile</h2>
+                    <p class="vp">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+
+                    <!-- Block for author info-->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="Phillip" width="50" height="50">
+                        <h3>Phillip Massey</h3>
+                    </div>
+                    
+                    <!-- Block for rating -->
+                    <div class="mr-3">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_on.png" alt="star">
+                        <img src="image/star_off.png" alt="star">
+                        <p class="m">8 min</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footerbg text-white py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-4 text-center text-md-left pr-md-4 pb-4 mt-4 order-1 order-md-1">
+                <img class="footer-logo" src="image/logo.png" alt="footer-img">
+            </div>
+            <div class="col-12 col-md-4 text-center pt-5 pt-md-4 order-3 order-md-2">
+                <p class="cpright">@smileschool 2020</p>
+            </div>
+            <div class="col-12 col-md-4 text-center text-md-right order-2 order-md-3 pt-4 pt-md-0">
+                <img src="image/Facebook.png" alt="fb" class="mx-2">
+                <img src="image/Twitter.png" alt="twitter" class="mx-2">
+                <img src="image/Instagram.png" alt="instagram" class="mx-2">
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
