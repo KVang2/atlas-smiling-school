@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2cW2+5jcKD21Z6LzvB8Ty/mB8ZdY4rvU8qqz5k3LO/23z5T2dZdyQWZmTBZg6z2" crossorigin="anonymous"></script>
+
     <!-- CSS import -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -100,7 +98,7 @@
                 <div class="carousel-inner">  
                     <div class="carousel-item active">      
                         <div class="row align-items-center py-5">
-                            <div class="col-1  col-sm-6d-felx justify-content-center">
+                            <div class="col-1 d-felx justify-content-center">
                                 <a href="#quoteCarousel" role="button" data-slide="prev">
                                     <img src="image/arrow_white_left.png" alt="arrow" width="29.04" height="62.67">
                                 </a>
@@ -113,7 +111,7 @@
                                 <p class="text-left"> Person Name<br>weather presenter</p>
                             </div>
                             <div class="col-1 d-flex justify-content-center align-items-center">
-                                <a href="#quoteCarousel" role="button" data-slide="next">
+                                <a href="quoteCarousel" role="button" data-slide="next">
                                     <img src="image/arrow_white_right.png" alt="arrow" width="29.04" height="62.67">
                                 </a>
                             </div>
@@ -130,11 +128,11 @@
                                 <img src="image/profile_5.jpg" alt="red-shirt" class="rounded-circle" width="110" height="110">
                             </div>
                             <div class="col-8 text-center text-white pl-4">
-                                <blockquote class="text-left"><< I can't think of a better place to learn smiling. And it's so fun!</blockquote>
+                                <blockquote class="text-left"><< Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!</blockquote>
                                 <p class="text-left"> Person Name<br>weather presenter</p>
                             </div>
                             <div class="col-1 d-flex justify-content-center align-items-center">
-                                <a href="#quoteCarousel" role="button" data-slide="next">
+                                <a href="quoteCarousel" role="button" data-slide="next">
                                     <img src="image/arrow_white_right.png" alt="arrow" width="29.04" height="62.67">
                                 </a>
                             </div>
@@ -155,17 +153,18 @@
             <div class="row">
 
                 <!-- Video 1 -->
-                <div class="col-12 col-lg-3 col-sm-6 text-center">
-                    <div class="position-relative">
-                        <img src="image/thumbnail_4.jpg" alt="smile" width="255" height="154" class="mb-3">
-                        <h2 class="text-nowrap">Diagonal Smile</h2>
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                <div class="col-12 col-lg-3 col-sm-6 text-center mb-4">
+                    <div class="position-relative thumbnail-container">
+                        <img src="image/thumbnail_4.jpg" alt="smile" class="main-image">
+                        <img src="image/play.png" alt="overlay" class="overlay-image">
                     </div>
+                    <h2 class="text-nowrap">Diagonal Smile</h2>
+                    <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
 
                     <!-- Block for author info-->
                     <div class="d-flex align-items-center justify-content-center m-3">
                         <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="Phillip" width="50" height="50">
-                        <h3 class="text-nowrap free">Phillip Massey</h3>
+                        <h3 class="text-nowrap">Phillip Massey</h3>
                     </div>
                     
                     <!-- Block for rating -->
@@ -175,20 +174,23 @@
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_off.png" alt="star">
-                        <p class="free">8 min</p>
+                        <p>8 min</p>
                     </div>
                 </div>
 
-                <!-- video 2 -->
-                <div class="col-12 col-lg-3 col-sm-6 text-center">
-                    <img src="image/thumbnail_3.jpg" alt="sad smile" width="255" height="154" class="mb-3">
+                <!-- Video 2 -->
+                <div class="col-12 col-lg-3 col-sm-6 text-center mb-4">
+                    <div class="position-relative thumbnail-container">
+                        <img src="image/thumbnail_3.jpg" alt="sad smile" class="main-image">
+                        <img src="image/play.png" alt="overlay" class="overlay-image">
+                    </div>
                     <h2 class="vh2">Sad Smile</h2>
                     <p class="vp">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
 
                     <!-- Block for author info-->
                     <div class="d-flex align-items-center justify-content-center m-3">
-                        <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="description"  width="50" height="50">
-                        <h3 class="text-nowrap free">Phillip Massey</h3>
+                        <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="description" width="50" height="50">
+                        <h3 class="text-nowrap">Phillip Massey</h3>
                     </div>
                     
                     <!-- Block for rating -->
@@ -198,43 +200,49 @@
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_off.png" alt="star">
-                        <p class="free">8 min</p>
+                        <p>8 min</p>
                     </div>
                 </div>
 
-                <!-- video 3 -->
-                <div class="col-12 col-lg-3 col-sm-6 text-center">
-                    <img src="image/thumbnail_2.jpg" alt="natural smile" width="255" height="154" class="mb-3">
+                <!-- Video 3 -->
+                <div class="col-12 col-lg-3 col-sm-6 text-center mb-4">
+                    <div class="position-relative thumbnail-container">
+                        <img src="image/thumbnail_2.jpg" alt="natural smile" class="main-image">
+                        <img src="image/play.png" alt="overlay" class="overlay-image">
+                    </div>
                     <h2 class="vh2">Natural Smile</h2>
                     <p class="vp">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-    
+
                     <!-- Block for author info-->
                     <div class="d-flex align-items-center justify-content-center m-3">
-                        <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="Phillip"  width="50" height="50">
-                        <h3 class="text-nowrap free">Phillip Massey</h3>
+                        <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="Phillip" width="50" height="50">
+                        <h3 class="text-nowrap">Phillip Massey</h3>
                     </div>
-                        
-                        <!-- Block for rating -->
+                    
+                    <!-- Block for rating -->
                     <div class="mr-3">
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_off.png" alt="star">
-                        <p class="free">8 min</p>
+                        <p>8 min</p>
                     </div>
                 </div>
 
-                <!-- video 4 -->
-                <div class="col-12 col-lg-3 col-sm-6 text-center">
-                    <img src="image/thumbnail_1.jpg" alt="happy smile" width="255" height="154" class="mb-3">
+                <!-- Video 4 -->
+                <div class="col-12 col-lg-3 col-sm-6 text-center mb-4">
+                    <div class="position-relative thumbnail-container">
+                        <img src="image/thumbnail_1.jpg" alt="happy smile" class="main-image">
+                        <img src="image/play.png" alt="overlay" class="overlay-image">
+                    </div>
                     <h2 class="vh2">Happy Smile</h2>
                     <p class="vp">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
 
                     <!-- Block for author info-->
                     <div class="d-flex align-items-center justify-content-center m-3">
                         <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="Phillip" width="50" height="50">
-                        <h3 class="text-nowrap free">Phillip Massey</h3>
+                        <h3 class="text-nowrap">Phillip Massey</h3>
                     </div>
                     
                     <!-- Block for rating -->
@@ -244,7 +252,7 @@
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_off.png" alt="star">
-                        <p class="free">8 min</p>
+                        <p class="m">8 min</p>
                     </div>
                 </div>
             </div>
@@ -310,7 +318,7 @@
                     <!-- Block for author info-->
                     <div class="d-flex align-items-center justify-content-center">
                         <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="Phillip" width="50" height="50">
-                        <h3 class="free">Phillip Massey</h3>
+                        <h3>Phillip Massey</h3>
                     </div>
                     
                     <!-- Block for rating -->
@@ -320,7 +328,7 @@
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_off.png" alt="star">
-                        <p class="free">8 min</p>
+                        <p>8 min</p>
                     </div>
                 </div>
 
@@ -333,7 +341,7 @@
                     <!-- Block for author info-->
                     <div class="d-flex align-items-center justify-content-center">
                         <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="description"  width="50" height="50">
-                        <h3 class="free">Phillip Massey</h3>
+                        <h3>Phillip Massey</h3>
                     </div>
                     
                     <!-- Block for rating -->
@@ -343,7 +351,7 @@
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_off.png" alt="star">
-                        <p class="free">8 min</p>
+                        <p>8 min</p>
                     </div>
                 </div>
 
@@ -356,7 +364,7 @@
                     <!-- Block for author info-->
                     <div class="d-flex align-items-center justify-content-center">
                         <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="Phillip"  width="50" height="50">
-                        <h3 class="free">Phillip Massey</h3>
+                        <h3>Phillip Massey</h3>
                     </div>
                         
                         <!-- Block for rating -->
@@ -365,8 +373,7 @@
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_on.png" alt="star">
-                        <img src="image/star_off.png" alt="star">
-                        <p class="free">8 min</p>
+                        <img src="image/star_off.png" alt="star">                            <p>8 min</p>
                     </div>
                 </div>
 
@@ -379,7 +386,7 @@
                     <!-- Block for author info-->
                     <div class="d-flex align-items-center justify-content-center">
                         <img class="rounded-circle m-3" src="image/profile_1.jpg" alt="Phillip" width="50" height="50">
-                        <h3 class="free">Phillip Massey</h3>
+                        <h3>Phillip Massey</h3>
                     </div>
                     
                     <!-- Block for rating -->
@@ -389,7 +396,7 @@
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_on.png" alt="star">
                         <img src="image/star_off.png" alt="star">
-                        <p class="free">8 min</p>
+                        <p class="m">8 min</p>
                     </div>
                 </div>
             </div>

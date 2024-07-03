@@ -58,6 +58,7 @@ header {
     width: 100%;
 }
 
+/* Couldnt get the opacity to work in bootstrap */
 .cpright {
     opacity: 0.25;
 }
