@@ -24,19 +24,6 @@ header {
     border-color: #C271FF;
 }
 
-/* Custom styles for medium devices */
-@media (min-width: 768px) {
-
-}
-
-/* Custom styles for moblie devices */
-@media (min-width: 576px) {
-}
-
-/* Custom styles for desktop devices */
-@media (min-width: 992px) {
-}
-
 .footerbg {
     background-color: #071629;
 }
