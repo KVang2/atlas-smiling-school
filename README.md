@@ -10,3 +10,4 @@
 
 A limited css page used to modify background color, text-color, and smaller detail that, I wasn't able to implement using bootstrap.
 
+https://kvang2.github.io/atlas-smiling-school/
